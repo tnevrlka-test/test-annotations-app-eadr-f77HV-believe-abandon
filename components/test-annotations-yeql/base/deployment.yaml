@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-yeql
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-hitv-tenant/test-annotations-app-eadr/test-annotations-yeql@sha256:9dc184ac2782c750b9905ace12ce7e2db9bbab95239797ee3cf417f1e1ce2655
         name: my-nginx
         ports:
         - containerPort: 8080
